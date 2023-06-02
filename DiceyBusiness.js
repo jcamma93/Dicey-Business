@@ -1,7 +1,7 @@
 let dice = [];
-let btnCreate = $("#btn-create");
-let btnRoll = $("#btn-roll");
-let btnSum = $("#btn-sum");
+const btnCreate = $("#btn-create");
+const btnRoll = $("#btn-roll");
+const btnSum = $("#btn-sum");
 
 $(btnCreate).click(() => {
     let die = new Die();
